@@ -312,7 +312,7 @@ export const seoData: SEODataType = {
   description: greetings.description,
   author: "Saurabh Kumar Singh",
   image: "https://avatars.githubusercontent.com/u/80574561?s=400&u=12a61358eb07ce4da94542e2e99794b4c6c0828d&v=4",
-  url: "https://developer-portfolio-saurabh-kumar-sing.vercel.app/",
+  url: "https://saurabh8853-portfolio.vercel.app/",
   keywords: [
     "Saurabh",
     "Saurabh Kumar Singh",
