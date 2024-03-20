@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   name: "Saurabh Kumar Singh",
   title: "Hey Everyone, I'm Saurabh",
   description:
-    "I am passionate Competitive Programmer and Full Stack Developer. I love solving tricky problems and creating cool stuff using the MERN stack. I've done well in competitions, like ranking among the top 100 programmers in India on Codeforces and placing 10th in the ICPC Kanpur Regionals 2021. I'm skilled in various programming languages and technologies like C++, React.js, Node.js, Java, and Spring Boot. I'm always eager to learn new things and improve my skills. Outside of coding, I enjoy playing badminton, cooking tasty food, and listening to music. These activities add balance to my life and keep me happy and motivated.",
+    "I am a passionate Competitive Programmer and Full Stack Developer. I love solving tricky problems and creating cool stuff using the MERN stack. I've done well in competitions, like ranking among the top 100 programmers in India on Codeforces and placing 10th in the ICPC Kanpur Regionals 2021. I'm skilled in various programming languages and technologies like C++, React.js, Node.js, Java, and Spring Boot. I'm always eager to learn new things and improve my skills. Outside of coding, I enjoy playing badminton, cooking tasty food, and listening to music. These activities add balance to my life and keep me happy and motivated.",
   resumeLink: "https://drive.google.com/file/d/1HfccbsQ7sZAfE-h3rcV1NrZdsHyXkTLr/view?usp=sharing",
 };
 
@@ -196,6 +196,18 @@ export const achievementInfo: AchievementsType[] = [
     achievementImage: "/img/icons/common/prepbytes.png",
     duration: "",
     desc: "3 times in Nov'21, June'22 and July'22 on PrepBytes.",
+  },
+  {
+    achievementTitle: "100 Percentile in Physics",
+    achievementImage: "/img/icons/common/jeemain.png",
+    duration: "",
+    desc: "In Jee Main 2020.",
+  },
+  {
+    achievementTitle: "100 out of 100 in Physics",
+    achievementImage: "/img/icons/common/jeemain.png",
+    duration: "",
+    desc: "In 12th CBSE Board Exam 2020.",
   },
   // {
   //   achievementTitle: "",
