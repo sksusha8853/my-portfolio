@@ -16,8 +16,8 @@ export const greetings: GreetingsType = {
   name: "Saurabh Kumar Singh",
   title: "Hey Everyone, I'm Saurabh",
   description:
-    "I am a passionate Competitive Programmer and Full Stack Developer. I love solving tricky problems and creating cool stuff using the MERN stack. I've done well in competitions, like ranking among the top 100 programmers in India on Codeforces and placing 10th in the ICPC Kanpur Regionals 2021. I'm skilled in various programming languages and technologies like C++, React.js, Node.js, Java, and Spring Boot. I'm always eager to learn new things and improve my skills. Outside of coding, I enjoy playing badminton, cooking tasty food, and listening to music. These activities add balance to my life and keep me happy and motivated.",
-  resumeLink: "https://drive.google.com/file/d/1HfccbsQ7sZAfE-h3rcV1NrZdsHyXkTLr/view?usp=sharing",
+    "I am a passionate Competitive Programmer and Full Stack Developer. I love solving tricky problems and creating cool stuff using the MERN stack. I've done well in competitions, like ranking among the top 100 programmers in India on Codeforces and placing 10th in the ICPC Kanpur Regionals 2021. I'm skilled in various programming languages and technologies like C++, Java, Python, React.js, Node.js, MongoDB, and Spring Boot. I'm always eager to learn new things and improve my skills. Outside of coding, I enjoy playing badminton, cooking tasty food, and listening to music. These activities add balance to my life and keep me happy and motivated.",
+  resumeLink: "https://drive.google.com/file/d/1cyQve0F2Ivb2M6jmQCUf0WWVwC9S91Oa/view?usp=sharing",
 };
 
 export const openSource = {
@@ -27,7 +27,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:sksusha8853@gmail.com",
+  // email: "mailto:sksusha8853@gmail.com",
   linkedin: "https://www.linkedin.com/in/sksusha/",
   github: "https://github.com/sksusha8853",
   instagram: "https://www.instagram.com/sksusha8853",
@@ -114,7 +114,7 @@ export const educationInfo: EducationType[] = [
     subHeader: "Bachelor of Technology in Computer Science and Engineering",
     duration: "November 2020 - May 2024",
     desc: "",
-    grade: "CPI 8.81",
+    grade: "CPI 8.76",
     descBullets: [], // Array of Strings
   },
   {
@@ -146,6 +146,12 @@ export const achievementInfo: AchievementsType[] = [
   {
     achievementTitle: "Candidate Master(2080) at Codeforces",
     achievementImage: "/img/icons/common/codeforces.png",
+    duration: "",
+    desc: "Handle: sksusha8853",
+  },
+  {
+    achievementTitle: "Guardian at LeetCode",
+    achievementImage: "/img/icons/common/leetcode.png",
     duration: "",
     desc: "Handle: sksusha8853",
   },
@@ -237,28 +243,28 @@ export const experience: ExperienceType[] = [
     role: "Problem Setter and Technical Content Reviewer",
     company: "Scaler",
     companyLogo: "/img/icons/common/scaler.png",
-    date: "Sept 2023 - Current",
-    desc: "During my internship, I conducted quality checks for over 100 articles, authored video scripts for more than 50 lecture animations, and developed quizzes for 50+ lectures.",
+    date: "Sept 2023 - June 2024",
+    desc: "During my internship, I ensured the quality of over 100 articles, wrote scripts for 50+ engaging lecture animations, and developed quizzes for 50+ lectures. I also created introduction cards for 20+ lectures and crafted detailed scripts for instructors for more than 10 lectures.",
   },
   {
     role: "Problem Setter Intern",
     company: "Coding Ninjas",
     companyLogo: "/img/icons/common/codingninjas.png",
     date: "June 2023 - Sept 2023",
-    desc: "During my internship, I prepared more than 30 Data Structures and Algorithmic problems on Coding Ninjas' platform, CodeStudio.",
+    desc: "During my internship, I created 30+ coding challenges for Coding Ninjas' CodeStudio. I also reviewed and fixed over 100 coding problems by identifying their tricky parts.",
   },
   {
     role: "Intern",
     company: "GeeksforGeeks",
     companyLogo: "/img/icons/common/gfg.png",
-    date: "February 2024 - Current",
-    desc: "At GFG, I carefully review articles to make sure they're good. I've improved 8 articles already, and I'm still working on making more better.",
+    date: "February 2024 - May 2024",
+    desc: "At GFG, I carefully review articles to make sure they're good. I've improved 13 articles already, and I'm still working on making more better.",
   },
   {
     role: "Research Consultant",
     company: "WorldQuant Brain",
     companyLogo: "/img/icons/common/wq.png",
-    date: "December 2023 - Current",
+    date: "December 2023 - May 2024",
     desc: "In my role at WorldQuant, I am tasked with crafting unique alpha strategies that leverage proprietary data and advanced quantitative techniques. These strategies are meticulously developed to capitalize on market inefficiencies and generate superior returns for our clients. Through extensive research, analysis, and innovative thinking, I strive to uncover hidden patterns and insights that drive alpha creation in the dynamic landscape of global financial markets.",
   },
   {
