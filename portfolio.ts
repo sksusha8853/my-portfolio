@@ -18,6 +18,7 @@ export const greetings: GreetingsType = {
   description:
     "I am a passionate Competitive Programmer and Full Stack Developer. I love solving tricky problems and creating cool stuff using the MERN stack. I've done well in competitions, like ranking among the top 100 programmers in India on Codeforces and placing 10th in the ICPC Kanpur Regionals 2021. I'm skilled in various programming languages and technologies like C++, Java, Python, React.js, Node.js, MongoDB, and Spring Boot. I'm always eager to learn new things and improve my skills. Outside of coding, I enjoy playing badminton, cooking tasty food, and listening to music. These activities add balance to my life and keep me happy and motivated.",
   resumeLink: "https://drive.google.com/file/d/1cyQve0F2Ivb2M6jmQCUf0WWVwC9S91Oa/view?usp=sharing",
+  blogLink : "https://sksinsights.onrender.com/",
 };
 
 export const openSource = {
@@ -31,6 +32,7 @@ export const socialLinks: SocialLinksType = {
   linkedin: "https://www.linkedin.com/in/sksusha/",
   github: "https://github.com/sksusha8853",
   instagram: "https://www.instagram.com/sksusha8853",
+  blog: "https://sksinsights.onrender.com/",
   // twitter:"https://www.instagram.com/sksusha8853",
 };
 
@@ -285,16 +287,22 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
+    name: "SKSInsights",
+    desc: "SKSInsights is a dynamic and innovative blog platform that delivers a fresh perspective on the latest trends in technology, lifestyle, and more. Built using modern web technologies such as Tailwind CSS, MongoDB, React, Node.js, Express, Firebase, and Vite, SKSInsights offers a sleek, fast, and responsive user experience. Unlike traditional blogs, SKSInsights leverages the power of these cutting-edge tools to ensure that content is not only engaging but also beautifully presented and easy to navigate.",
+    github: "https://github.com/sksusha8853/SKSInsights",
+    // link: "https://developer-portfolio-1hanzla100.vercel.app/",
+  },
+  {
     name: "Trendflix",
     desc: "TrendFlix is a cutting-edge movie streaming platform that redefines the traditional streaming experience by seamlessly blending entertainment and fashion. Much like popular services such as Amazon Prime, TrendFlix offers a vast library of movies and TV shows for your viewing pleasure. However, what sets TrendFlix apart is its unique and innovative feature: the ability to display shopping links for products similar to the wearable items worn by your favorite movie stars.",
     github: "https://github.com/sksusha8853/Trendflix",
     // link: "https://developer-portfolio-1hanzla100.vercel.app/",
   },
-  {
-    name: "Research Paper",
-    desc: "Title: An Alignment-Free Scalable Feature Extraction Method for Genomic Data Clustering. Desc: Introduced a groundbreaking genome sequence clustering approach with a Scalable feature extraction method, effectively managing large-scale Genomic data and mitigating scalability issues in alignment-free approaches. The clustering result of this 13D approach is better than the available 17D and 4D approaches on various datasets.",
-    github: "https://github.com/Saurabh915/BucketDrop",
-  },
+  // {
+  //   name: "Research Paper",
+  //   desc: "Title: An Alignment-Free Scalable Feature Extraction Method for Genomic Data Clustering. Desc: Introduced a groundbreaking genome sequence clustering approach with a Scalable feature extraction method, effectively managing large-scale Genomic data and mitigating scalability issues in alignment-free approaches. The clustering result of this 13D approach is better than the available 17D and 4D approaches on various datasets.",
+  //   github: "https://github.com/Saurabh915/BucketDrop",
+  // },
   {
     name: "HostelHub",
     desc: "I developed a web application tailored for the hostel community, enabling efficient management of hostel activities, student records, and staff information. The application assigns different user roles with specific privileges to ensure smooth administration. It serves as a platform for overseeing and addressing students' complaints and suggestions effectively.",

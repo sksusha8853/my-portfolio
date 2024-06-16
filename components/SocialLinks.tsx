@@ -5,6 +5,7 @@ import { socialLinks } from "../portfolio";
 const SocialLinks = () => {
   return (
     <div className="btn-wrapper text-lg">
+      
       {socialLinks.email && (
         <Button
           className="btn-icon-only rounded-circle ml-1"
@@ -86,6 +87,20 @@ const SocialLinks = () => {
         >
           <span className="btn-inner--icon">
             <i className="fa fa-twitter" />
+          </span>
+        </Button>
+      )}
+      {socialLinks.blog && (
+        <Button
+          className="btn-icon-only rounded-circle ml-1"
+          color="white" // You can customize the color
+          href={socialLinks.blog}
+          rel="noopener"
+          aria-label="Blog"
+          target="_blank"
+        >
+          <span className="btn-inner--icon">
+            <i className="fa fa-pencil" /> {/* Using an RSS icon, change it as needed */}
           </span>
         </Button>
       )}
