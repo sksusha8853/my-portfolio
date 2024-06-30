@@ -16,7 +16,7 @@ export const greetings: GreetingsType = {
   name: "Saurabh Kumar Singh",
   title: "Hey Everyone, I'm Saurabh",
   description:
-    "I am a passionate Competitive Programmer and Full Stack Developer. I love solving tricky problems and creating cool stuff using the MERN stack. I've done well in competitions, like ranking among the top 100 programmers in India on Codeforces and placing 10th in the ICPC Kanpur Regionals 2021. I'm skilled in various programming languages and technologies like C++, Java, Python, React.js, Node.js, MongoDB, and Spring Boot. I'm always eager to learn new things and improve my skills. Outside of coding, I enjoy playing badminton, cooking tasty food, and listening to music. These activities add balance to my life and keep me happy and motivated.",
+    "I am a Software Developer and a passionate Competitive Programmer. I love solving tricky problems and creating cool stuff using the MERN stack. I've done well in competitions, like ranking among the top 100 programmers in India on Codeforces and placing 10th in the ICPC Kanpur Regionals 2021. I'm skilled in various programming languages and technologies like C++, Java, Python, React.js, Node.js, MongoDB, and Spring Boot. I'm always eager to learn new things and improve my skills. Outside of coding, I enjoy playing badminton, cooking tasty food, and listening to music. These activities add balance to my life and keep me happy and motivated.",
   resumeLink: "https://drive.google.com/file/d/1cyQve0F2Ivb2M6jmQCUf0WWVwC9S91Oa/view?usp=sharing",
   blogLink : "https://sksinsights.onrender.com/",
 };
@@ -44,8 +44,9 @@ export const skillsSection: SkillsSectionType = {
       title: "Full Stack Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Creating efficient Java-based Search APIs using Protocol Buffers, Spanner, and Guice."),
-        emoji("⚡ Developing innovative genome sequence clustering methods with Apache Spark and Python."),
+        
+        emoji("⚡ Developing and optimizing backend systems with Java and Spring Boot, specializing in routing algorithms, and collaborating across teams to scale and enhance enterprise applications for seamless client experiences."),
+        emoji("⚡ Created efficient Java-based Search API and Auto Suggestion API using Protocol Buffers, Spanner, and Guice."),
         emoji("⚡ Expertise in developing MERN stack apps."),
       ],
       softwareSkills: [
@@ -146,6 +147,12 @@ export const achievementInfo: AchievementsType[] = [
     desc: "Team Name: lets_code_it",
   },
   {
+    achievementTitle: "AIR 8 in ICPC'21 Kanpur Preliminary Round",
+    achievementImage: "/img/icons/common/icpc.png",
+    duration: "",
+    desc: "Team Name: lets_code_it",
+  },
+  {
     achievementTitle: "Candidate Master(2080) at Codeforces",
     achievementImage: "/img/icons/common/codeforces.png",
     duration: "",
@@ -200,6 +207,12 @@ export const achievementInfo: AchievementsType[] = [
     desc: "Among 5746 active participants.",
   },
   {
+    achievementTitle: "1st rank in GFG Job-a-thon 34",
+    achievementImage: "/img/icons/common/gfg.png",
+    duration: "",
+    desc: "Among 4910 active participants.",
+  },
+  {
     achievementTitle: "1st Rank in Coding Marathon",
     achievementImage: "/img/icons/common/prepbytes.png",
     duration: "",
@@ -227,19 +240,19 @@ export const achievementInfo: AchievementsType[] = [
 ];
 
 export const experience: ExperienceType[] = [
-  // {
-  //   role: "Software Development Engineer Intern",
-  //   company: "Walmart Global Tech.",
-  //   companyLogo: "/img/icons/common/walmart.jpeg",
-  //   date: "May 2023 - August 2023",
-  //   desc: "During my internship at Walmart Global Tech, I collaborated on various projects that honed my skills in backend and frontend development. I played a pivotal role in developing APIs and middleware using SpringBoot for seamless integration, as well as contributing to UI enhancements and API integration with React.js. Additionally, I led the development of API adapters to streamline access to critical Walmart APIs across teams, and spearheaded the migration of multiple apps to JFrog, optimizing repository management and software delivery.",
-  // },
+  {
+    role: "Software Development Engineer",
+    company: "MoveInSync",
+    companyLogo: "/img/icons/common/moveinsync.png",
+    date: "June 2024 - Current",
+    desc: "As a Software Engineer at MoveInSync, I am involved in developing and optimizing backend systems using Java and Spring Boot. I specialize in designing and implementing efficient routing algorithms that enhance workplace transport solutions. Collaborating closely with cross-functional teams, I contribute to the scalability and reliability of our enterprise applications, ensuring seamless user experiences for our clients.",
+  },
   {
     role: "Software Engineering Intern",
     company: "Google",
     companyLogo: "/img/icons/common/google.png",
     date: "May 2023 - August 2023",
-    desc: "During my internship at Google, I worked in the Corporate Engineering team where my project was to create a highly optimized Search API with over 140 million records with type-ahead search functionality. I completed my project within the designated time limit, and the code has been deployed into production.",
+    desc: "Developed a Search API for over 140 million records, integrating type-ahead functionality using Google's technologies, leading to its implementation in production—a rare feat for interns. Engineered a type-ahead feature by architecting APIs to leverage Google's Generic Suggest and internal Retrieval Engine, enhancing data efficiency and user search experience.",
   },
   {
     role: "Problem Setter and Technical Content Reviewer",
@@ -263,6 +276,13 @@ export const experience: ExperienceType[] = [
     desc: "At GFG, I carefully review articles to make sure they're good. I've improved 13 articles already, and I'm still working on making more better.",
   },
   {
+    role: "REMO REVIEWER",
+    company: "Remotasks",
+    companyLogo: "/img/icons/common/remotask.png",
+    date: "September 2023 - October 2023",
+    desc: "At Remotasks, my primary responsibility involved thoroughly examining the LLM responses, identifying any errors present, and evaluating the overall quality and accuracy of each response through grading.",
+  },
+  {
     role: "Research Consultant",
     company: "WorldQuant Brain",
     companyLogo: "/img/icons/common/wq.png",
@@ -276,13 +296,7 @@ export const experience: ExperienceType[] = [
     date: "October 2021 - April 2023",
     desc: "As a member of the club, I contribute by creating competitive programming problems for contests organized by the club. I have organized contests such as 'Fool U' and 'Surprize Language', and served as a problem setter for contests including 'Codeforces Contest #841 Div 2', 'Fool U', 'Surprize Language', and 'Codegolf'. Additionally, I actively participate in internal decision-making processes within the club.",
   },
-  {
-    role: "REMO REVIEWER",
-    company: "Remotasks",
-    companyLogo: "/img/icons/common/remotask.png",
-    date: "September 2023 - October 2023",
-    desc: "At Remotasks, my primary responsibility involved thoroughly examining the LLM responses, identifying any errors present, and evaluating the overall quality and accuracy of each response through grading.",
-  },
+  
 ];
 
 export const projects: ProjectType[] = [
