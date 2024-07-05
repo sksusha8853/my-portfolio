@@ -241,14 +241,14 @@ export const achievementInfo: AchievementsType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: "Software Development Engineer",
+    role: "Software Engineer",
     company: "MoveInSync",
     companyLogo: "/img/icons/common/moveinsync.png",
     date: "June 2024 - Current",
     desc: "As a Software Engineer at MoveInSync, I am involved in developing and optimizing backend systems using Java and Spring Boot. I specialize in designing and implementing efficient routing algorithms that enhance workplace transport solutions. Collaborating closely with cross-functional teams, I contribute to the scalability and reliability of our enterprise applications, ensuring seamless user experiences for our clients.",
   },
   {
-    role: "Software Engineering Intern",
+    role: "Software Engineer Intern",
     company: "Google",
     companyLogo: "/img/icons/common/google.png",
     date: "May 2023 - August 2023",
