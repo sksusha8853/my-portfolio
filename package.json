@@ -3,8 +3,8 @@
   "version": "2.0.0",
   "description": "Software Developer Portfolio Template built with next.js bootstrap that helps you showcase your work and skills as a software developer.",
   "main": "index.js",
-  "repository": "https://github.com/Pranav915/MyPortfolio",
-  "author": "Pranav Patil",
+  "repository": "https://github.com/sksusha8853/my-portfolio",
+  "author": "Saurabh Kumar Singh",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",

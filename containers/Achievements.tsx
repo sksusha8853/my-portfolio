@@ -1,13 +1,13 @@
 import React from "react";
 import { achievementInfo } from "../portfolio";
 import { Container, Row } from "reactstrap";
-import Fade from "react-reveal/Fade";
+
 import AchievementCard from "../components/AchievementCard";
 
 const Achievements = () => {
   return (
     achievementInfo && (
-      <Fade bottom duration={2000}>
+
         <section className="section pb-0 bg-gradient-info my-5" id="achievements">
           <Container>
             <div className="d-flex p-4">
@@ -39,7 +39,7 @@ const Achievements = () => {
             </svg>
           </div>
         </section>
-      </Fade>
+
     )
   );
 };

@@ -16,8 +16,8 @@ export const greetings: GreetingsType = {
   name: "Saurabh Kumar Singh",
   title: "Hey Everyone, I'm Saurabh",
   description:
-    "I am a Software Developer and a passionate Competitive Programmer. I love solving tricky problems and creating cool stuff using the MERN stack. I've done well in competitions, like ranking among the top 100 programmers in India on Codeforces and placing 10th in the ICPC Kanpur Regionals 2021. I'm skilled in various programming languages and technologies like C++, Java, Python, React.js, Node.js, MongoDB, and Spring Boot. I'm always eager to learn new things and improve my skills. Outside of coding, I enjoy playing badminton, cooking tasty food, and listening to music. These activities add balance to my life and keep me happy and motivated.",
-  resumeLink: "https://drive.google.com/file/d/1cyQve0F2Ivb2M6jmQCUf0WWVwC9S91Oa/view?usp=sharing",
+    "I am a Software Developer and a passionate Competitive Programmer. I love solving tricky problems and creating cool stuff using the MERN stack. I've done well in competitions, like ranking among the top 100 programmers in India on Codeforces and placing 10th in the ICPC Kanpur Regionals 2021. I'm skilled in various programming languages and technologies like C++, Go, Java, Python, React.js, Node.js, MongoDB, and Spring Boot. I'm always eager to learn new things and improve my skills. Outside of coding, I enjoy playing badminton, cooking tasty food, and listening to music. These activities add balance to my life and keep me happy and motivated.",
+  resumeLink: "https://drive.google.com/file/d/1gRPw_r-ocpxJJiinBSC_HcroLB8yRaLN/view?usp=sharing",
   blogLink : "https://sksinsights.onrender.com/",
 };
 
@@ -38,16 +38,16 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY COMPETITIVE PROGRAMMER and FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY COMPETITIVE PROGRAMMER and Backend DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
-      title: "Full Stack Development",
+      title: "Backend Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
         
-        emoji("⚡ Developing and optimizing backend systems with Java and Spring Boot, specializing in routing algorithms, and collaborating across teams to scale and enhance enterprise applications for seamless client experiences."),
+        emoji("⚡ Creating the backend of Cashless Payment for Events managed by District by Zomato"),
         emoji("⚡ Created efficient Java-based Search API and Auto Suggestion API using Protocol Buffers, Spanner, and Guice."),
-        emoji("⚡ Expertise in developing MERN stack apps."),
+        emoji("⚡ Expertise in designing high-performance APIs and backend architecture."),
       ],
       softwareSkills: [
         {
@@ -141,6 +141,18 @@ export const educationInfo: EducationType[] = [
 
 export const achievementInfo: AchievementsType[] = [
   {
+    achievementTitle: "Candidate Master(2092) at Codeforces",
+    achievementImage: "/img/icons/common/codeforces.png",
+    duration: "",
+    desc: "Handle: sksusha8853",
+  },
+  {
+    achievementTitle: "6⭐ on CodeChef",
+    achievementImage: "/img/icons/common/codechef.png",
+    duration: "",
+    desc: "Handle: sksusha8853",
+  },
+  {
     achievementTitle: "AIR 10 in ICPC'21 Regional",
     achievementImage: "/img/icons/common/icpc.png",
     duration: "",
@@ -152,21 +164,10 @@ export const achievementInfo: AchievementsType[] = [
     duration: "",
     desc: "Team Name: lets_code_it",
   },
-  {
-    achievementTitle: "Candidate Master(2080) at Codeforces",
-    achievementImage: "/img/icons/common/codeforces.png",
-    duration: "",
-    desc: "Handle: sksusha8853",
-  },
+
   {
     achievementTitle: "Guardian at LeetCode",
     achievementImage: "/img/icons/common/leetcode.png",
-    duration: "",
-    desc: "Handle: sksusha8853",
-  },
-  {
-    achievementTitle: "6⭐ on CodeChef",
-    achievementImage: "/img/icons/common/codechef.png",
     duration: "",
     desc: "Handle: sksusha8853",
   },
@@ -241,11 +242,18 @@ export const achievementInfo: AchievementsType[] = [
 
 export const experience: ExperienceType[] = [
   {
+    role: "Software Development Engineer",
+    company: "Zomato (District)",
+    companyLogo: "/img/icons/common/zomato.jpeg",
+    date: "Oct 2024 - Present",
+    desc: "Developed high-traffic event tools and backend systems, including a Free Sample Redemption system for Zomato events, handling 10K RPM traffic and 25K redemptions. Optimized user notification flows in DynamoDB for the District App, implemented Soft Delete functionality for improved data management in Cashless, and built real-time Grafana dashboards for enhanced monitoring and analytics of cashless transactions.",
+  },
+  {
     role: "Software Engineer",
     company: "MoveInSync",
     companyLogo: "/img/icons/common/moveinsync.png",
-    date: "June 2024 - Current",
-    desc: "As a Software Engineer at MoveInSync, I am involved in developing and optimizing backend systems using Java and Spring Boot. I specialize in designing and implementing efficient routing algorithms that enhance workplace transport solutions. Collaborating closely with cross-functional teams, I contribute to the scalability and reliability of our enterprise applications, ensuring seamless user experiences for our clients.",
+    date: "June 2024 - Oct 2024",
+    desc: "As a Software Engineer at MoveInSync, I was involved in developing and optimizing backend systems using Java and Spring Boot. I was specialized in designing and implementing efficient routing algorithms that enhance workplace transport solutions. Collaborated closely with cross-functional teams, I contributed to the scalability and reliability of our enterprise applications, ensuring seamless user experiences for our clients.",
   },
   {
     role: "Software Engineer Intern",
@@ -273,7 +281,7 @@ export const experience: ExperienceType[] = [
     company: "GeeksforGeeks",
     companyLogo: "/img/icons/common/gfg.png",
     date: "February 2024 - May 2024",
-    desc: "At GFG, I carefully review articles to make sure they're good. I've improved 13 articles already, and I'm still working on making more better.",
+    desc: "At GFG, I carefully review articles to make sure they're good. I've improved 13 articles.",
   },
   {
     role: "REMO REVIEWER",
@@ -301,6 +309,12 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
+    name: "Research Paper",
+    desc: "Title: A novel chemical property-based, alignment-free scalable feature extraction method for genomic data clustering. Desc: This work utilizes Apache Spark for large-scale genomic data processing and introduces a novel chemical property-based feature extraction technique, significantly enhancing clustering efficiency compared to traditional methods. My contributions focused on coding and implementing the core functionalities of this research paper.",
+    // github: "https://github.com/Saurabh915/BucketDrop",
+    link: "https://www.sciencedirect.com/science/article/abs/pii/S0045790625001181?dgcid=author",
+  },
+  {
     name: "SKSInsights",
     desc: "SKSInsights is a dynamic and innovative blog platform that delivers a fresh perspective on the latest trends in technology, lifestyle, and more. Built using modern web technologies such as Tailwind CSS, MongoDB, React, Node.js, Express, Firebase, and Vite, SKSInsights offers a sleek, fast, and responsive user experience. Unlike traditional blogs, SKSInsights leverages the power of these cutting-edge tools to ensure that content is not only engaging but also beautifully presented and easy to navigate.",
     github: "https://github.com/sksusha8853/SKSInsights",
@@ -309,14 +323,10 @@ export const projects: ProjectType[] = [
   {
     name: "Trendflix",
     desc: "TrendFlix is a cutting-edge movie streaming platform that redefines the traditional streaming experience by seamlessly blending entertainment and fashion. Much like popular services such as Amazon Prime, TrendFlix offers a vast library of movies and TV shows for your viewing pleasure. However, what sets TrendFlix apart is its unique and innovative feature: the ability to display shopping links for products similar to the wearable items worn by your favorite movie stars.",
-    github: "https://github.com/sksusha8853/Trendflix",
+    github: "https://github.com/cse200001043/Trendflix",
     // link: "https://developer-portfolio-1hanzla100.vercel.app/",
   },
-  // {
-  //   name: "Research Paper",
-  //   desc: "Title: An Alignment-Free Scalable Feature Extraction Method for Genomic Data Clustering. Desc: Introduced a groundbreaking genome sequence clustering approach with a Scalable feature extraction method, effectively managing large-scale Genomic data and mitigating scalability issues in alignment-free approaches. The clustering result of this 13D approach is better than the available 17D and 4D approaches on various datasets.",
-  //   github: "https://github.com/Saurabh915/BucketDrop",
-  // },
+  
   {
     name: "HostelHub",
     desc: "I developed a web application tailored for the hostel community, enabling efficient management of hostel activities, student records, and staff information. The application assigns different user roles with specific privileges to ensure smooth administration. It serves as a platform for overseeing and addressing students' complaints and suggestions effectively.",
