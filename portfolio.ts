@@ -16,8 +16,8 @@ export const greetings: GreetingsType = {
   name: "Saurabh Kumar Singh",
   title: "Hey Everyone, I'm Saurabh",
   description:
-    "I am a Software Developer and a passionate Competitive Programmer. I love solving tricky problems and creating cool stuff using the MERN stack. I've done well in competitions, like ranking among the top 100 programmers in India on Codeforces and placing 10th in the ICPC Kanpur Regionals 2021. I'm skilled in various programming languages and technologies like C++, Go, Java, Python, React.js, Node.js, MongoDB, and Spring Boot. I'm always eager to learn new things and improve my skills. Outside of coding, I enjoy playing badminton, cooking tasty food, and listening to music. These activities add balance to my life and keep me happy and motivated.",
-  resumeLink: "https://drive.google.com/file/d/1gRPw_r-ocpxJJiinBSC_HcroLB8yRaLN/view?usp=sharing",
+    "I am Saurabh Kumar Singh, a Software Development Engineer with over 1+ year of experience building and scaling products in fast-paced, product-driven environments. At District by Zomato, I build and manage two core products — Cashless and Accreditation — end-to-end, owning both their technical and operational aspects. I've done well in competitions, like ranking among the top 100 programmers in India on Codeforces and placing 10th in the ICPC Kanpur Regionals 2021. I'm skilled in various programming languages and technologies like C++, PHP, Go, Python, MySQL, AWS etc. I'm always eager to learn new things and improve my skills.",
+  resumeLink: "https://drive.google.com/file/d/1b0FcVtQzTPbiUflaz8naOkmvAPk0ddpb/view",
   blogLink : "https://sksinsights.onrender.com/",
 };
 
@@ -55,6 +55,10 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "vscode-icons:file-type-cpp",
         },
         {
+          skillName: "PHP",
+          iconifyTag: "vscode-icons:file-type-php",
+        },
+        {
           skillName: "Python",
           iconifyTag: "logos:python",
         },
@@ -65,11 +69,6 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
-        },
-        
-        {
-          skillName: "Springboot",
-          iconifyTag: "logos:spring",
         },
         {
           skillName: "Reactjs",
@@ -231,6 +230,12 @@ export const achievementInfo: AchievementsType[] = [
     duration: "",
     desc: "In 12th CBSE Board Exam 2020.",
   },
+  {
+    achievementTitle: "3rd Rank in Weekly Coding Challenge",
+    achievementImage: "/img/icons/common/unstop.png",
+    duration: "",
+    desc: "Organized by Unstop",
+  },
   // {
   //   achievementTitle: "",
   //   achievementImage: "/img/icons/common/",
@@ -246,7 +251,7 @@ export const experience: ExperienceType[] = [
     company: "Zomato (District)",
     companyLogo: "/img/icons/common/zomato.jpeg",
     date: "Oct 2024 - Present",
-    desc: "Developed high-traffic event tools and backend systems, including a Free Sample Redemption system for Zomato events, handling 10K RPM traffic and 25K redemptions. Optimized user notification flows in DynamoDB for the District App, implemented Soft Delete functionality for improved data management in Cashless, and built real-time Grafana dashboards for enhanced monitoring and analytics of cashless transactions.",
+    desc: "Owned the end-to-end development and management of two products — Accreditation and Cashless — serving as the go-to expert for both backend and frontend technical aspects. Optimized user notification flows in DynamoDB for the District App, implemented Soft Delete functionality for improved data management in Cashless, and built real-time Grafana dashboards for enhanced monitoring and analytics of cashless transactions.",
   },
   {
     role: "Software Engineer",
